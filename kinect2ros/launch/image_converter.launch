@@ -1,0 +1,11 @@
+<launch>
+
+<node pkg = "kinect2ros" type = "image_converter"
+name = "image_converter" >
+
+<remap from = "camera/image_raw" to = "camera/rgb/image_raw"/>
+
+</node>
+
+
+</launch>
